@@ -1,0 +1,111 @@
+.color{
+    background: linear-gradient(to right, rgb(34, 0, 63),rgb(118, 3, 167));
+}
+.color .one{
+    display: flex;
+}
+.color .one div{
+    padding: 3%;
+    font-size: 2rem;
+}
+.color .one div a{
+    text-decoration: none;
+    color: white;
+}
+.color .one .Book{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.drop{
+    display: flex;
+    justify-content: center;
+}
+.drop #dropbtn{
+    border-radius: 10px;
+    width:7rem;
+}
+.drop #dropbtn i{
+    color: black;
+}
+.dropdown{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.dropdown{
+    margin-top: 5%;
+    height: 40%;
+    width: 20%;
+    overflow: scroll;
+    border-radius: 10px;
+}
+.dropdown div{
+    border: 1px solid rgb(205, 205, 205);
+}
+::-webkit-scrollbar-track {
+    background-color: #f1f1f1; /* Change the background color */
+}
+::-webkit-scrollbar-thumb {
+    background-color: white; /* Change the color of the scrollbar thumb */
+}
+::-webkit-scrollbar {
+    width: 12px; /* Set the width of the scrollbar */
+    background-color: white; /* Change the background color of the scrollbar */
+}
+.display{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.display button{
+    height: 2rem;
+    width: 7rem;
+    border-radius: 10px;
+}
+#quoteDisplay{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#quoteDisplay div{
+    padding: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#quoteDisplay div p{
+    color: white;
+    font-size:1.5rem;
+    background-color: rgb(235, 29, 29);
+    border-radius: 20px;
+}
+#quoteDisplay div p div{
+    display: flex;
+    justify-content: center;
+}
+#quoteDisplay div  button{
+    color: black;
+    font-size: 2rem;
+    background-color: rgb(235, 29, 29);
+    border: rgb(235, 29, 29);
+}
+.books{
+    background: linear-gradient(to right, rgb(34, 0, 63),rgb(118, 3, 167));
+}
+.books .head div a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.3rem;
+}
+.books .your{
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 1.3rem;
+    padding: 20px;
+}
+.books .bookmarked{
+    color: white;
+}
